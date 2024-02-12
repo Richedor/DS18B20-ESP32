@@ -11,13 +11,13 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-#define ONE_WIRE_BUS 13 // GPIO utilisé pour le bus OneWire
+#define ONE_WIRE_BUS 4 // GPIO utilisé pour le bus OneWire
 
 OneWire oneWire(ONE_WIRE_BUS); // Création d'une instance de OneWire
 DallasTemperature sensors(&oneWire); // Création d'une instance de DallasTemperature
 
 void setup() {
-  Serial.begin(9600); // Initialisation de la communication série
+  Serial.begin(115200); // Initialisation de la communication série
   Serial.println("ESP32 - Surveillance de la température"); // Message d'initialisation
   sensors.begin(); // Initialisation des capteurs de température
 }
