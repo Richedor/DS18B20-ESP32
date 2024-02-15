@@ -36,7 +36,7 @@ Voici le schéma de câblage pour ce projet :
 ## Comment utiliser le code
 
 1. Connectez le capteur DS18B20 à votre microcontrôleur selon le schéma de câblage ci-dessus.
-2. Ouvrez le fichier `fr/temperature.ino` dans l'IDE Arduino.
+2. Ouvrez le fichier `DS18B20-ESP32-FR.ino` dans l'IDE Arduino.
 3. Téléversez le code sur votre microcontrôleur.
 4. Ouvrez la console série de l'IDE Arduino (vitesse de communication : 115200 bauds).
 5. Les mesures de température devraient s'afficher dans la console série toutes les 5 secondes.
@@ -95,7 +95,7 @@ Here is the wiring diagram for this project:
 ## How to Use the Code
 
 1. Connect the DS18B20 sensor to your microcontroller according to the wiring diagram above.
-2. Open the `en/temperature.ino` file in the Arduino IDE.
+2. Open the `DS18B20-ESP32-EN.ino` file in the Arduino IDE.
 3. Upload the code to your microcontroller.
 4. Open the serial console of the Arduino IDE (communication speed: 115200 bauds).
 5. Temperature measurements should be displayed in the serial console every 5 seconds.
