@@ -28,7 +28,7 @@ Voici le schéma de câblage pour ce projet :
 ## Installation
 
 1. Clonez ce projet depuis GitHub.
-2. Ouvrez le fichier `fr/temperature.ino` dans l'IDE Arduino.
+2. Ouvrez le fichier `DS18B20-ESP32-FR.ino` dans l'IDE Arduino.
 3. Sélectionnez votre carte ESP32 dans le menu Outils > Type de carte.
 4. Sélectionnez le port série de votre ESP32 dans le menu Outils > Port.
 5. Chargez le programme sur votre ESP32 à l'aide du bouton "Téléverser".
@@ -87,7 +87,7 @@ Here is the wiring diagram for this project:
 ## Installation
 
 1. Clone this project from GitHub.
-2. Open the `en/temperature.ino` file in the Arduino IDE.
+2. Open the `DS18B20-ESP32-EN.ino` file in the Arduino IDE.
 3. Select your ESP32 board from the Tools > Board menu.
 4. Select the serial port of your ESP32 from the Tools > Port menu.
 5. Upload the program to your ESP32 using the "Upload" button.
