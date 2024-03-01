@@ -5,7 +5,7 @@
  * Author: Richedor LALEYE (Adecola)
  * Date: April 9, 2023
  * Version: 2
- * License: MIT (insert license text here or provide a link to a LICENSE file)
+ * License: MIT 
  */
 
 #include <OneWire.h>
